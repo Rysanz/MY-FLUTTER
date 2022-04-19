@@ -25,11 +25,14 @@ class homePage extends StatelessWidget {
                     style: TextStyle(
                         color: Colors.white,
                         fontSize: 22,
-                        fontWeight: FontWeight.w600),
+                        fontWeight: FontWeight.w600
+                        ),
                   ),
                   Text(
                     'College Student',
-                    style: TextStyle(fontSize: 16, color: Colors.white),
+                    style: TextStyle(
+                      fontSize: 16, color: Colors.white
+                      ),
                   )
                 ],
               ),
@@ -58,6 +61,7 @@ class homePage extends StatelessWidget {
                 Text(
                   'Hi, I am a student at the Faculty of Engineering and Informatics, National Education University.\nMy interests include Internet of Things, UI/UX, Videography and photography.',
                   style: TextStyle(color: Colors.black54),
+                  textAlign: TextAlign.center,
                 ),
                 SizedBox(
                   height: 15,
